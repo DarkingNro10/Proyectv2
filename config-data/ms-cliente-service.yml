@@ -13,13 +13,13 @@ spring:
     show-sql: true
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ms-cliente
+    url: jdbc:mysql://localhost:3306/ms-clientep
     username: root
     password:
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8090/eureka
+      defaultZone: http://localhost:9070/eureka
   instance:
     hostname: localhost
